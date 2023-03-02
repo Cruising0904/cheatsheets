@@ -53,6 +53,8 @@ Getting started
 | `0` _(zero)_ | Start of line                      |
 | `^`          | Start of line _(after whitespace)_ |
 | `$`          | End of line                        |
+| 'g_'         | End of line                        |
+| `<c-->`      | Start of previous line             |
 {: .-shortcuts}
 
 #### Character
@@ -107,6 +109,9 @@ Getting started
 | `:tablast`            | Go to last tab                  |
 | `:tabn    `           | Go to next tab                  |
 | `:tabp    `           | Go to previous tab              |
+| `{n}gt`               | Go to {nth}next tab             |
+| `{n}gT`               | Go to {nth}previous tab         |
+
 
 ### Editing
 
